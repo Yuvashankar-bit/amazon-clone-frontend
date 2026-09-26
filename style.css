@@ -1,0 +1,116 @@
+body{
+
+font-family:Arial, sans-serif;
+
+background:#f8f9fa;
+
+}
+
+.group{
+    position: relative;
+    height: 00px;
+}
+.overlay{
+
+margin-top: 100px;
+justify-content:center;
+
+align-items:center;
+
+}
+
+.hero h1{
+
+font-size:45px;
+
+font-weight:bold;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+}
+.card1{
+
+transition:.3s;
+
+border:1px solid black;
+border-radius: 20px;
+}
+
+.card1:hover{
+
+background-color: rgba(0, 255, 255, 0.349);
+
+transform:translateY(-5px);
+
+box-shadow:0 15px 25px rgba(0,0,0,.3);
+border-radius: 20px;
+}
+.card2{
+
+transition:.3s;
+
+border:none;
+border-radius: 20px;
+}
+
+.card2:hover{
+
+background-color: rgba(255, 0, 0, 0.336);
+
+transform:translateY(-5px);
+border-radius: 20px;
+box-shadow:0 15px 25px rgba(0,0,0,.3);
+
+}
+.card3{
+
+transition:.3s;
+
+border:none;
+border-radius: 20px;
+}
+
+.card3:hover{
+
+background-color: rgba(0, 128, 0, 0.377);
+
+transform:translateY(-5px);
+border-radius: 20px;
+box-shadow:0 15px 25px rgba(0,0,0,.3);
+
+}
+.card{
+
+transition:.3s;
+border-radius: 20px;
+border:none;
+
+}
+
+.card:hover{
+
+transform:translateY(-5px);
+border-radius: 20px;
+box-shadow:0 15px 25px rgba(0,0,0,.3);
+
+}
+
+.card img{
+
+height:220px;
+border-radius: 20px;
+object-fit:cover;
+
+}
+
+.alert{
+
+font-size:22px;
+
+border-radius:8px;
+
+}
